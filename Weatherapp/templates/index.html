@@ -1,0 +1,14 @@
+{% include "header.html" %}
+<html>
+  <head>
+    <title>Weather Application</title>
+  </head>
+  <body>
+    <div class="whole-body">{% block content %} {% endblock %}</div>
+  </body>
+</html>
+<script>
+  $(document).ready(function () {
+    $(".alert").hide(5000);
+  });
+</script>
